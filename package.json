@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://hgithub.com/lukasz-lysik/grunt-demeteorizer.git"
+    "url": "git://github.com/lukasz-lysik/grunt-demeteorizer.git"
   },
   "bugs": {
     "url": ""
