@@ -1,7 +1,7 @@
 {
   "name": "grunt-demeteorizer",
   "description": "Grunt task for Meteor.js Demeteorizer app\"",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "",
   "author": {
     "name": "Lukasz Lysik",
