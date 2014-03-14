@@ -18,17 +18,18 @@ module.exports = function(grunt) {
     
     var input = (this.data.input || '.');
     var output = (this.data.output || (this.data.input + '.demeteorized'))
-    var node_version = '';
+    var node_version = this.data.version || 'v0.10.22';
     var release = '';
     var tarball = '';
     var appName = '';
-    
+
     if(node_version.indexOf('v') !== 0) {
       node_version = 'v' + node_version;
     }
 
     grunt.log.writeln('Input: ' + input);
     grunt.log.writeln('Output: ' + output);
+    grunt.log.writeln('Version: ' + node_version);
 
     demeteorizer.on('progress', function(msg) {
       grunt.log.writeln(msg);
