@@ -1,7 +1,7 @@
 {
   "name": "grunt-demeteorizer",
   "description": "Grunt task for Meteor.js Demeteorizer app\"",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "homepage": "",
   "author": {
     "name": "Lukasz Lysik",
@@ -33,7 +33,7 @@
     "grunt": "~0.4.4"
   },
   "peerDependencies": {
-    "grunt": "~0.4.4"
+    "grunt": "~0.4.0"
   },
   "keywords": [
     "gruntplugin"
